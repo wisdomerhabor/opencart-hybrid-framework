@@ -26,7 +26,8 @@ pipeline {
 
         stage('Archive Test Reports') {
             steps {
-                archiveArtifacts artifacts: 'test-output/ExtentReports/*.html', fingerprint: true
+				bat 'if not exist "target/ExtentReports" mkdir "target/ExtentReports"'
+                archiveArtifacts artifacts: 'target/ExtentReports/*.html', fingerprint: true
             }
         }
 
