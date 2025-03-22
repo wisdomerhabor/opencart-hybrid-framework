@@ -2568,3 +2568,49 @@ java.net.UnknownHostException: googlechromelabs.github.io
 2025-03-18 16:11:49 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login link
 2025-03-18 16:11:49 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login button
 2025-03-18 16:11:52 [main] INFO  testCases.TC002_User_Authentication_Test - Successful login status : true
+2025-03-19 09:35:04 [main] INFO  org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://raw.githubusercontent.com:443
+2025-03-19 09:36:16 [main] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Error reading commands.properties, using local instead
+2025-03-19 09:36:16 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-19 09:36:16 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Wisdom.Erhabho\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-19 09:36:30 [main] INFO  testCases.TC001_User_Registration_Test - ****Starting Test : TC001_User_Registration****
+2025-03-19 09:36:30 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Clicked on MyAccount link
+2025-03-19 09:36:34 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Clicked on Register link
+2025-03-19 09:36:34 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Providing customer details...
+2025-03-19 09:36:36 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Validating successful login...
+2025-03-19 09:36:37 [main] INFO  testCases.TC001_User_Registration_Test - ****Finished Test : TC001_User_Registration****
+2025-03-19 09:36:38 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-19 09:36:38 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Wisdom.Erhabho\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-19 09:36:45 [main] INFO  testCases.TC002_User_Authentication_Test - ****Starting Test : TC001_User_Authentication****
+2025-03-19 09:36:47 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login link
+2025-03-19 09:36:48 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login button
+2025-03-19 09:36:49 [main] INFO  testCases.TC002_User_Authentication_Test - Successful login status : true
+2025-03-19 10:37:20 [main] INFO  org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://raw.githubusercontent.com:443
+2025-03-19 10:37:52 [main] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Error reading commands.properties, using local instead
+2025-03-19 10:37:52 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-19 10:37:52 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Wisdom.Erhabho\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-19 10:38:02 [main] INFO  testCases.TC001_User_Registration_Test - ****Starting Test : TC001_User_Registration****
+2025-03-19 10:38:02 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Clicked on MyAccount link
+2025-03-19 10:38:05 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Clicked on Register link
+2025-03-19 10:38:05 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Providing customer details...
+2025-03-19 10:38:08 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Validating successful login...
+2025-03-19 10:38:08 [main] INFO  testCases.TC001_User_Registration_Test - ****Finished Test : TC001_User_Registration****
+2025-03-19 10:38:10 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-19 10:38:10 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Wisdom.Erhabho\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-19 10:38:15 [main] INFO  testCases.TC002_User_Authentication_Test - ****Starting Test : TC001_User_Authentication****
+2025-03-19 10:38:17 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login link
+2025-03-19 10:38:17 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login button
+2025-03-19 10:38:19 [main] INFO  testCases.TC002_User_Authentication_Test - Successful login status : true
+2025-03-19 10:43:27 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-19 10:43:27 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Wisdom.Erhabho\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-19 10:43:39 [main] INFO  testCases.TC001_User_Registration_Test - ****Starting Test : TC001_User_Registration****
+2025-03-19 10:43:39 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Clicked on MyAccount link
+2025-03-19 10:43:44 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Clicked on Register link
+2025-03-19 10:43:44 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Providing customer details...
+2025-03-19 10:43:47 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Validating successful login...
+2025-03-19 10:43:47 [main] INFO  testCases.TC001_User_Registration_Test - ****Finished Test : TC001_User_Registration****
+2025-03-19 10:43:50 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.88 (resolved driver for Chrome 134)
+2025-03-19 10:43:50 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Wisdom.Erhabho\.cache\selenium\chromedriver\win64\134.0.6998.88\chromedriver.exe
+2025-03-19 10:43:59 [main] INFO  testCases.TC002_User_Authentication_Test - ****Starting Test : TC001_User_Authentication****
+2025-03-19 10:44:00 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login link
+2025-03-19 10:44:01 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login button
+2025-03-19 10:44:03 [main] INFO  testCases.TC002_User_Authentication_Test - Successful login status : true

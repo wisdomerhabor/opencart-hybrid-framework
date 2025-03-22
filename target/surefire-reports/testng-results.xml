@@ -23,22 +23,22 @@
       <![CDATA[📌 Status of test execution is: PASSED<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-03-18T16:11:12 WAT" name="OpenCart Test Suite" finished-at="2025-03-18T16:11:55 WAT" duration-ms="42861">
+  <suite started-at="2025-03-19T10:43:26 WAT" name="OpenCart Test Suite" finished-at="2025-03-19T10:44:06 WAT" duration-ms="39660">
     <groups>
       <group name="Master">
-        <method signature="TC001_User_Registration_Test.successful_user_registration()[pri:0, instance:testCases.TC001_User_Registration_Test@5b1ebf56]" name="successful_user_registration" class="testCases.TC001_User_Registration_Test"/>
-        <method signature="TC002_User_Authentication_Test.successful_login()[pri:0, instance:testCases.TC002_User_Authentication_Test@6fb365ed]" name="successful_login" class="testCases.TC002_User_Authentication_Test"/>
+        <method signature="TC001_User_Registration_Test.successful_user_registration()[pri:0, instance:testCases.TC001_User_Registration_Test@71c27ee8]" name="successful_user_registration" class="testCases.TC001_User_Registration_Test"/>
+        <method signature="TC002_User_Authentication_Test.successful_login()[pri:0, instance:testCases.TC002_User_Authentication_Test@3549bca9]" name="successful_login" class="testCases.TC002_User_Authentication_Test"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC002_User_Authentication_Test.successful_login()[pri:0, instance:testCases.TC002_User_Authentication_Test@6fb365ed]" name="successful_login" class="testCases.TC002_User_Authentication_Test"/>
+        <method signature="TC002_User_Authentication_Test.successful_login()[pri:0, instance:testCases.TC002_User_Authentication_Test@3549bca9]" name="successful_login" class="testCases.TC002_User_Authentication_Test"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_User_Registration_Test.successful_user_registration()[pri:0, instance:testCases.TC001_User_Registration_Test@5b1ebf56]" name="successful_user_registration" class="testCases.TC001_User_Registration_Test"/>
+        <method signature="TC001_User_Registration_Test.successful_user_registration()[pri:0, instance:testCases.TC001_User_Registration_Test@71c27ee8]" name="successful_user_registration" class="testCases.TC001_User_Registration_Test"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-03-18T16:11:12 WAT" name="Test" finished-at="2025-03-18T16:11:55 WAT" duration-ms="42861">
+    <test started-at="2025-03-19T10:43:26 WAT" name="Test" finished-at="2025-03-19T10:44:06 WAT" duration-ms="39660">
       <class name="testCases.TC001_User_Registration_Test">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_User_Registration_Test@5b1ebf56]" started-at="2025-03-18T16:11:12 WAT" name="setup" finished-at="2025-03-18T16:11:26 WAT" duration-ms="14132" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_User_Registration_Test@71c27ee8]" started-at="2025-03-19T10:43:27 WAT" name="setup" finished-at="2025-03-19T10:43:39 WAT" duration-ms="12332" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="successful_user_registration()[pri:0, instance:testCases.TC001_User_Registration_Test@5b1ebf56]" started-at="2025-03-18T16:11:26 WAT" name="successful_user_registration" finished-at="2025-03-18T16:11:39 WAT" duration-ms="12492" status="PASS">
+        <test-method signature="successful_user_registration()[pri:0, instance:testCases.TC001_User_Registration_Test@71c27ee8]" started-at="2025-03-19T10:43:39 WAT" name="successful_user_registration" finished-at="2025-03-19T10:43:47 WAT" duration-ms="7947" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[🟢 Test Started: successful_user_registration<br>]]>
@@ -67,13 +67,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- successful_user_registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_User_Registration_Test@5b1ebf56]" started-at="2025-03-18T16:11:39 WAT" name="teardown" finished-at="2025-03-18T16:11:41 WAT" duration-ms="2084" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_User_Registration_Test@71c27ee8]" started-at="2025-03-19T10:43:47 WAT" name="teardown" finished-at="2025-03-19T10:43:50 WAT" duration-ms="2689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC001_User_Registration_Test -->
       <class name="testCases.TC002_User_Authentication_Test">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_User_Authentication_Test@6fb365ed]" started-at="2025-03-18T16:11:41 WAT" name="setup" finished-at="2025-03-18T16:11:47 WAT" duration-ms="6117" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_User_Authentication_Test@3549bca9]" started-at="2025-03-19T10:43:50 WAT" name="setup" finished-at="2025-03-19T10:43:59 WAT" duration-ms="9003" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="successful_login()[pri:0, instance:testCases.TC002_User_Authentication_Test@6fb365ed]" started-at="2025-03-18T16:11:47 WAT" name="successful_login" finished-at="2025-03-18T16:11:52 WAT" duration-ms="5339" status="PASS">
+        <test-method signature="successful_login()[pri:0, instance:testCases.TC002_User_Authentication_Test@3549bca9]" started-at="2025-03-19T10:43:59 WAT" name="successful_login" finished-at="2025-03-19T10:44:03 WAT" duration-ms="4079" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[🟢 Test Started: successful_login<br>]]>
@@ -102,7 +102,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- successful_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_User_Authentication_Test@6fb365ed]" started-at="2025-03-18T16:11:52 WAT" name="teardown" finished-at="2025-03-18T16:11:55 WAT" duration-ms="2433" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_User_Authentication_Test@3549bca9]" started-at="2025-03-19T10:44:03 WAT" name="teardown" finished-at="2025-03-19T10:44:06 WAT" duration-ms="3362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
