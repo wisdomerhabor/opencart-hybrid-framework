@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     environment {
-        MAVEN_HOME = tool 'Maven' // Make sure Maven is configured in Jenkins
+        MAVEN_HOME = tool 'maven' // Ensure Maven is configured in Jenkins
     }
 
     stages {
-        stage('Checkout Code') {
+        stage('Checkout GitHub Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/wisdomerhabor/selenium-automation-framework.git'
+                git branch: 'master', url: 'https://github.com/wisdomerhabor/opencart-hybrid-framework.git'
             }
         }
 
@@ -24,18 +24,18 @@ pipeline {
             }
         }
 
-        stage('Archive Extent Reports') {
+        stage('Archive Test Reports') {
             steps {
-                archiveArtifacts artifacts: 'test-output/ExtentReports/*.html', fingerprint: true
+                archiveArtifacts artifacts: 'target/surefire-reports/*.xml', fingerprint: true
             }
         }
 
-        stage('Publish Extent HTML Report') {
+        stage('Publish HTML Reports') {
             steps {
                 publishHTML (target: [
-                    reportDir: 'test-output/ExtentReports',
+                    reportDir: 'target/surefire-reports',
                     reportFiles: '*.html',
-                    reportName: 'Selenium Test Report',
+                    reportName: 'Selenium Test Reports',
                     keepAll: true,
                     alwaysLinkToLastBuild: true
                 ])
@@ -45,13 +45,13 @@ pipeline {
 
     post {
         always {
-            junit 'target/surefire-reports/*.xml' // Publish TestNG XML test results
+            junit 'target/surefire-reports/*.xml' // Publish JUnit test results
         }
         failure {
-            echo "❌ Tests Failed! Check Extent Reports."
+            echo "❌ Tests Failed! Check Reports."
         }
         success {
-            echo "✅ Tests Passed! View the Extent Report in Jenkins."
+            echo "✅ Tests Passed! All Good."
         }
     }
 }
