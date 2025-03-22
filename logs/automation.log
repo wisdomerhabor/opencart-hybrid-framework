@@ -2614,3 +2614,31 @@ java.net.UnknownHostException: googlechromelabs.github.io
 2025-03-19 10:44:00 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login link
 2025-03-19 10:44:01 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login button
 2025-03-19 10:44:03 [main] INFO  testCases.TC002_User_Authentication_Test - Successful login status : true
+2025-03-23 00:49:29 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.165 (resolved driver for Chrome 134)
+2025-03-23 00:49:29 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Wisdom.Erhabho\.cache\selenium\chromedriver\win64\134.0.6998.165\chromedriver.exe
+2025-03-23 00:49:37 [main] INFO  testCases.TC001_User_Registration_Test - ****Starting Test : TC001_User_Registration****
+2025-03-23 00:49:38 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Clicked on MyAccount link
+2025-03-23 00:49:39 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Clicked on Register link
+2025-03-23 00:49:39 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Providing customer details...
+2025-03-23 00:49:41 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Validating successful login...
+2025-03-23 00:49:41 [main] INFO  testCases.TC001_User_Registration_Test - ****Finished Test : TC001_User_Registration****
+2025-03-23 00:49:43 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.165 (resolved driver for Chrome 134)
+2025-03-23 00:49:43 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Wisdom.Erhabho\.cache\selenium\chromedriver\win64\134.0.6998.165\chromedriver.exe
+2025-03-23 00:49:55 [main] INFO  testCases.TC002_User_Authentication_Test - ****Starting Test : TC001_User_Authentication****
+2025-03-23 00:49:56 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login link
+2025-03-23 00:49:56 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login button
+2025-03-23 00:49:57 [main] INFO  testCases.TC002_User_Authentication_Test - Successful login status : true
+2025-03-23 00:51:43 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.165 (resolved driver for Chrome 134)
+2025-03-23 00:51:43 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Wisdom.Erhabho\.cache\selenium\chromedriver\win64\134.0.6998.165\chromedriver.exe
+2025-03-23 00:51:52 [main] INFO  testCases.TC001_User_Registration_Test - ****Starting Test : TC001_User_Registration****
+2025-03-23 00:51:52 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Clicked on MyAccount link
+2025-03-23 00:52:00 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Clicked on Register link
+2025-03-23 00:52:00 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Providing customer details...
+2025-03-23 00:52:05 [main] INFO  testCases.TC001_User_Registration_Test - 🔹 Validating successful login...
+2025-03-23 00:52:05 [main] INFO  testCases.TC001_User_Registration_Test - ****Finished Test : TC001_User_Registration****
+2025-03-23 00:52:08 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 134.0.6998.165 (resolved driver for Chrome 134)
+2025-03-23 00:52:08 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Wisdom.Erhabho\.cache\selenium\chromedriver\win64\134.0.6998.165\chromedriver.exe
+2025-03-23 00:52:15 [main] INFO  testCases.TC002_User_Authentication_Test - ****Starting Test : TC001_User_Authentication****
+2025-03-23 00:52:17 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login link
+2025-03-23 00:52:21 [main] INFO  testCases.TC002_User_Authentication_Test - 🔹 Clicked on Login button
+2025-03-23 00:52:21 [main] INFO  testCases.TC002_User_Authentication_Test - Successful login status : true

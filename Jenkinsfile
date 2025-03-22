@@ -26,15 +26,15 @@ pipeline {
 
         stage('Archive Test Reports') {
             steps {
-				bat 'if not exist "target/ExtentReports" mkdir "target/ExtentReports"'
-                archiveArtifacts artifacts: 'target/ExtentReports/*.html', fingerprint: true
+				bat 'if not exist "reports" mkdir "reports"'
+                archiveArtifacts artifacts: 'reports/*.html', fingerprint: true
             }
         }
 
         stage('Publish Extent HTML Reports') {
             steps {
                 publishHTML (target: [
-                     reportDir: 'test-output/ExtentReports',
+                    reportDir: 'reports',
                     reportFiles: '*.html',
                     reportName: 'Selenium Test Reports',
                     keepAll: true,
